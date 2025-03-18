@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+   
+}
+.logo h2 span {
+    color: Red;
+}
+
+.logo h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul  {
+    list-style-type: none;
+    display: flex;
+
+
+    
+}
+
+li  {
+   margin-right: 30px;
+}
+
+a   {
+    text-decoration: none;
+    font-size: 12pt;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:hover   {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+a:current {
+    color: red;
+}
+
+.hero {
+    height: 300px;
+    background-image: url(https://www.kontron-technologies.com/sites/default/files/styles/hero/public/2024-01/20240123_Kontron_Header-Smart-Energy.jpg.webp?itok=rjIk1sHs);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .title h1 {
+    color: rgb(51, 189, 97);  
+    font-size: 45pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+   
+}
+
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+main    {
+    display: flex;
+    padding: 20px;
+  
+}
+
+h3  {
+    padding: 15px   ;
+    
+}
+
+.card   {
+    background-color: bisque;
+    border: 1px solid grey;
+    box-shadow: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p {
+    padding: 15px;
+    text-align: justify;
+}
+
+.card button {
+    
+    font-size: 12pt;
+    display: block;
+    width: 30%;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+img {
+    text-align: center;
+    height: 200px;
+}
+
